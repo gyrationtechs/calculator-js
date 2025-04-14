@@ -1,0 +1,7 @@
+.github/
+.git/
+node_modules/
+src/
+tests/
+.git
+.gitignore
