@@ -5,13 +5,13 @@ A simple SDK for performing basic arithmetic operations in Node.js.
 ## Installation
 
 ```bash
-npm install @ndozor/calculator
+npm install calculator-ndozor
 ```
 
 ## Usage
 
 ```typescript
-import { Calculator } from '@ndozor/calculator';
+import { Calculator } from 'calculator-ndozor';
 
 // Create a calculator instance
 const calculator = new Calculator(10, 5);
