@@ -7,23 +7,23 @@ describe('Calculator', () => {
     calculator = new Calculator(10, 5);
   });
 
-  test('addition', () => {
+  it('should add two numbers correctly', () => {
     expect(calculator.addition()).toBe(15);
   });
 
-  test('subtraction', () => {
+  it('should subtract two numbers correctly', () => {
     expect(calculator.subtraction()).toBe(5);
   });
 
-  test('multiplication', () => {
+  it('should multiply two numbers correctly', () => {
     expect(calculator.multiplication()).toBe(50);
   });
 
-  test('division', () => {
+  it('should divide two numbers correctly', () => {
     expect(calculator.division()).toBe(2);
   });
 
-  test('division by zero throws error', () => {
+  it('should throw error when dividing by zero', () => {
     const zeroCalculator = new Calculator(10, 0);
     expect(() => zeroCalculator.division()).toThrow('Cannot divide by zero');
   });
